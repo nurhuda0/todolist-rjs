@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import TodoInput from "./components/TodoInput"
 import TodoList from "./components/TodoList"
+import { fairyDustCursor } from "cursor-effects";
 
 function App() {
   const [todos, setTodos] = useState([])
