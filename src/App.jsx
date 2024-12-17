@@ -52,6 +52,7 @@ function App() {
       <h1>What to Do?</h1>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos}/>
       <TodoList handleEditTodo={handleEditTodo} handleDeleteTodo={handleDeleteTodo} todos={todos}/>
+      <h4>Copyright © Arka'an Nurhuda 2024. All Rights Reserved.</h4>
     </>
   )
 }
