@@ -17,7 +17,11 @@ button {
 h1 {
   font-size: 400%; /* Makes the font size 200% larger */
   text-align: center; /* Centers the text horizontally */
-  text-shadow: 0 0 10px white; /* Creates a glowing white outline */
+  text-shadow: 
+      -2px -2px 0 white, /* Top-left outline */
+       2px -2px 0 white, /* Top-right outline */
+      -2px  2px 0 white, /* Bottom-left outline */
+       2px  2px 0 white; /* Bottom-right outline */
   padding-bottom: 80px; /* Adds 20px of padding below the h1 */
   padding-top: 25px
 }
